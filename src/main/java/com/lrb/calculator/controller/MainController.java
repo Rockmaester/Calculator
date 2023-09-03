@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
+
     @GetMapping("")
     public String showGreetings(){
         return "greetings";
